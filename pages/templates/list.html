@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+		{% for p in plist %}
+			<a href="{{ p.get_absolute_url }}">
+
+
+				<h1>{{p.title}}</h1> </a>
+
+
+		{% endfor %}
+</body>
+</html>
